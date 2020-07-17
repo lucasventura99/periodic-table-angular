@@ -8,6 +8,9 @@ import { PeriodicTableComponent } from './periodic-table/periodic-table.componen
   declarations: [PeriodicTableComponent],
   imports: [
     CommonModule
+  ],
+  exports: [
+    PeriodicTableComponent
   ]
 })
 export class TableModule { }
