@@ -1,16 +1,20 @@
+import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PeriodicTableComponent } from './periodic-table/periodic-table.component';
+import { ListComponent } from './list/list.component';
 
 
 
 @NgModule({
-  declarations: [PeriodicTableComponent],
+  declarations: [PeriodicTableComponent, ListComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
-    PeriodicTableComponent
+    PeriodicTableComponent,
+    ListComponent
   ]
 })
 export class TableModule { }
