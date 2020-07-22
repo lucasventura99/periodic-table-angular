@@ -1,7 +1,46 @@
-<ul class="list-group">
-    <li class="list-group-item active">Cras justo odio</li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Morbi leo risus</li>
-    <li class="list-group-item">Porta ac consectetur ac</li>
-    <li class="list-group-item">Vestibulum at eros</li>
-  </ul>
+<table class="table text-capitalize">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Atomic Number</th>
+      <th scope="col">Symbol</th>
+      <th scope="col">Name</th>
+      <th scope="col">Atomic Mass</th>
+      <th scope="col">Atomic Radius</th>
+      <th scope="col">Boiling Point</th>
+      <th scope="col">Bonding Type</th>
+      <th scope="col">Density</th>
+      <th scope="col">Electron Affinity</th>
+      <th scope="col">Electro Negativity</th>
+      <th scope="col">Electronic Configuration</th>
+      <th scope="col">Group</th>
+      <th scope="col">Ion Radius</th>
+      <th scope="col">Ionization Energy</th>
+      <th scope="col">Melting Point</th>
+      <th scope="col">Oxidation States</th>
+      <th scope="col">Standard State</th>
+      <th scope="col">Year Discovered</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let element of elements; let i = index">
+      <th scope="row">{{element.atomicNumber}}</th>
+      <td>{{element.symbol}}</td>
+      <td>{{element.name}}</td>
+      <td>{{element.atomicMass}}</td>
+      <td>{{element.atomicRadius}}</td>
+      <td>{{element.boilingPoint}}</td>
+      <td>{{element.bondingType}}</td>
+      <td>{{element.density}}</td>
+      <td>{{element.electronAffinity}}</td>
+      <td>{{element.electronegativity}}</td>
+      <td>{{element.electronicConfiguration}}</td>
+      <td>{{element.groupBlock}}</td>
+      <td>{{element.ionRadius}}</td>
+      <td>{{element.ionizationEnergy}}</td>
+      <td>{{element.meltingPoint}}</td>
+      <td>{{element.oxidationStates}}</td>
+      <td>{{element.standardState}}</td>
+      <td>{{element.yearDiscovered}}</td>
+    </tr>
+  </tbody>
+</table>

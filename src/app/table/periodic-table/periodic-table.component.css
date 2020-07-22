@@ -2371,11 +2371,12 @@ body {
 
 .placeholder {
 	position: relative;
-	z-index: -1;
+	z-index: 1;
 	font-size: 1vw;
 	padding-bottom: 100%;
 	color: #fff;
 	transition: 500ms;
+	background-color: #ffffff00!important;
 }
 
 .placeholder .square {
@@ -2409,7 +2410,7 @@ body {
 	border-width: 0 0 2px 2px;
 	border-style: solid;
 	margin-left: -1px;
-	color: #fff;
+	color: rgb(0, 0, 0);
 	opacity: 0.2;
 }
 
@@ -2450,7 +2451,7 @@ body {
 }
 
 .unknown {
-	color: #cccccc;
+	color: #949393;
 }
 
 .r1 {
