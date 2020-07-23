@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PeriodicTableComponent } from './periodic-table/periodic-table.component';
 import { ListComponent } from './list/list.component';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 
 
@@ -12,7 +13,8 @@ import { ListComponent } from './list/list.component';
   imports: [
     CommonModule,
     BrowserModule,
-    RouterModule
+    RouterModule,
+    ModalModule.forRoot()
   ],
   exports: [
     PeriodicTableComponent,

@@ -1,0 +1,39 @@
+.alkali-metal {
+	color: #fd7048;
+}
+
+.alkaline-earth-metal {
+	color: #a78a21;
+}
+
+.lanthanoid {
+	color: #cd6ba1;
+}
+
+.actinoid {
+	color: #ff7bff;
+}
+
+.transition-metal {
+	color: #9464d4;
+}
+
+.post-transition-metal {
+	color: #329247;
+}
+
+.metalloid {
+	color: #33cbcb;
+}
+
+.other-nonmetal {
+	color: #0574bf;
+}
+
+.noble-gas {
+	color: #8151a4;
+}
+
+.unknown {
+	color: #949393;
+}
