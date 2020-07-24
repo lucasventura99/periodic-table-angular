@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { PeriodicTableComponent } from './periodic-table/periodic-table.component';
 import { ListComponent } from './list/list.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
+import { PaginationModule } from 'ngx-bootstrap/pagination';
 
 
 
@@ -14,7 +15,8 @@ import { ModalModule } from 'ngx-bootstrap/modal';
     CommonModule,
     BrowserModule,
     RouterModule,
-    ModalModule.forRoot()
+    ModalModule.forRoot(),
+    PaginationModule.forRoot()
   ],
   exports: [
     PeriodicTableComponent,
